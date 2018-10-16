@@ -1,14 +1,8 @@
 body{
-    height: auto;
-    width: auto;
     overflow: hidden;
 }
  /* ---- particles.js container ---- */ 
 
-#main{
-    background-color: rgb(163, 22, 140);
-    
-}
 
 #particles-js{ 
     position: absolute;
@@ -19,11 +13,18 @@ body{
         background-size: 20%; 
         background-position: 50% 50%; 
         text-align: center;
+        overflow: hidden;
     } /* ---- stats.js ---- */ 
 
     .navbar{
         background-color: rgb(9, 83, 148);
         height: 10%;
+        color: aliceblue;
+        font-family: 'Montserrat';
+    }
+
+    .navbar a{
+        color: antiquewhite;
     }
 
     .question{
@@ -36,7 +37,7 @@ body{
         height: 10%;
         z-index:1 ;
         background-color: aliceblue;
-        font-family: 'Roboto';
+        font-family: 'Montserrat';
         text-align: center;
         padding: 20px;
     }
@@ -53,7 +54,8 @@ body{
         opacity: 0.8;
         font-size: 20;
         color: aliceblue;
-        padding: 20px;
+        padding-top: 10px;
+        height: auto;
     }
 
     .options{
@@ -65,6 +67,7 @@ body{
         width: 50%;
         text-align:justify;
         margin-top: 40px;
+        font:'Montserrat';
     }
 
     .checkbox{
@@ -78,16 +81,16 @@ body{
         
     }
 
-    input{
-        visibility: hidden;
-    }
 
+input{
+    visibility: hidden;
+}
 
 .checkbox:hover {
     border-color: rgb(252, 107, 10);
     background-color:rgb(252, 118, 9);
 }
 
-.check:checked+.checkbox{
+.check:checked + .checkbox{
     background-color: rgb(214, 15, 98);
   }
