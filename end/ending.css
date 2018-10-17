@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,900");
 body {
   margin: 0;
-  height: 100%;
-  width: 100%;
+  overflow: hidden;
 }
 
 #home-animation-wrapper {
@@ -11,6 +10,7 @@ body {
   position: relative;
   float: left;
   cursor: pointer;
+  text-align: center;
 }
 #home-animation-wrapper svg {
   width: 100%;
